@@ -134,6 +134,10 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/main/bghero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {
@@ -271,6 +275,32 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+
+/* ------------------CUSTOMERS--------------------- */
+
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.customers-list {
+    display: flex;
+}
+
+.customers-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customers-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 
