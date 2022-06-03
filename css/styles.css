@@ -117,10 +117,11 @@ img {
     color: #757575;
     display: flex;
     flex-direction: row;
+    fill: currentColor;
 }
 
 .header-soc-icon {
-    fill: #757575;
+    fill: currentColor;
     margin-right: 10px;
 }
 
@@ -129,10 +130,8 @@ img {
 .header-tel:hover,
 .header-link:focus,
 .header-mail:focus,
-.header-tel:focus,
-.header-soc-icon:focus {
+.header-tel:focus {
     color: var(--accent-color);
-    fill: currentColor;
 }
 
 
